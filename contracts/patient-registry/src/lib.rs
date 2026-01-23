@@ -36,7 +36,10 @@ pub enum DataKey {
     Patient(Address),
     Doctor(Address),
     Institution(Address),
+    MedicalRecords(Address),        
+    AuthorizedDoctors(Address),      
 }
+
 
 #[contract]
 pub struct MedicalRegistry;
