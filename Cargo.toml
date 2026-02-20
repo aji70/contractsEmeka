@@ -8,6 +8,8 @@ members = [
   "contracts/financial-records",
   "contracts/doctor-registry",
   "contracts/access-control", "prescription-management",
+  "contracts/access-control",
+  "contracts/healthcare-analytics",
 ]
 
 [workspace.dependencies]
