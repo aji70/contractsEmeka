@@ -7,7 +7,7 @@ members = [
   "contracts/insurer-registry",
   "contracts/financial-records",
   "contracts/doctor-registry",
-  "contracts/access-control",
+  "contracts/access-control", "prescription-management",
 ]
 
 [workspace.dependencies]
