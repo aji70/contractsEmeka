@@ -75,6 +75,9 @@ fn test_record_adverse_event() {
         &1690086400,
     );
 
+    // To verify, we'd theoretically need a getter for adverse events, but that's not
+    // on the requested interface. However, the function succeeding means it's recorded.
+    // Let's test non-existent ID.
     let res = client.try_record_adverse_event(
         &999,
         &reporter,
